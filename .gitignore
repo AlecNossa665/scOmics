@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual/envs
+.env/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+
+# Data / results
+data/
+*.h5
+*.h5ad
+*.loom
+*.csv
+*.tsv
+*.rds
+*.rdata
+*.mtx
+*.npz
+*.npy
+
+# Logs / cluster artifacts
+slurm-*.out
+*.log
+*.err
+*.out
+
