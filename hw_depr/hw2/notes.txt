@@ -1,0 +1,12 @@
+For batch correction:
+    Harmony, a batch correction tool integrated into seruat. 
+        You can look up how it works on the Seurat docs. 
+        Similar to SCT you need to split your data.
+        Usually you should split by the library. 
+        If you do not give it params it will use the default for everything
+        It would be interesting if we continued using SCTransform
+
+For doublets: 
+    Use whatever you want. But Nicolas likes this: https://github.com/plger/scDblFinder
+    
+    
